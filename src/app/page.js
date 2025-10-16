@@ -18,7 +18,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.5 },
+      { threshold: 0.3 },
     );
 
     sections.current.forEach((sec) => observer.observe(sec));
