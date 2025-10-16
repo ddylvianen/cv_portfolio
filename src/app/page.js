@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className="min-h-screen  bg-gray-950 text-gray-100">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-row gap-10 justify-center items-center text-center">
+      <section className="min-h-screen flex flex-col sm:flex-row gap-10 justify-center items-center text-center ">
         <Hero />
       </section>
 
