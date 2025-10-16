@@ -18,12 +18,12 @@ export default function AboutMe() {
         </div>
 
         {/* About Content Column */}
-        <div className="md:col-span-2 flex flex-col justify-center">
+        <div className="md:col-span-2 flex flex-col justify-center text-start">
           <h2 className="text-2xl font-bold flex items-center gap-2 mb-6 text-gray-100">
             <User size={20} className="text-blue-400" /> About Me
           </h2>
 
-          <ul className="space-y-3 text-sm text-gray-300">
+          <ul className="space-y-3 sm:space-y-4 text-sm text-gray-300">
             <li className="flex items-start gap-2">
               <span className="text-blue-400 mt-1">•</span>
               <span>
