@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dylch's CV & Portfolio",
+  title: "Dylan's CV & Portfolio",
   description: "online cv and portfolio",
   name: "viewport",
   content: "width=device-width, initial-scale=1.0",
